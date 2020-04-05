@@ -3,7 +3,7 @@ def prime?(array)
    false
   elsif array <= 3
     true
-  else (2..n/2).none? do |n|
+  else (2..array/2).none? do |n|
     array % n == 0
   end
   end
